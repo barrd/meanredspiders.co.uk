@@ -26,6 +26,9 @@ body {
   height: 200px;
 }
 
+/* Main Content
+--------------------------------------------------------------------*/
+
 #mainContent {
   clear: right;
   float: left;
@@ -33,12 +36,17 @@ body {
   width: 630px;
 }
 
+#mainContPad {
+  width: 614px;
+  padding: 8px;
+}
+
 /* Title (contained within mainContent)
 --------------------------------------------------------------------*/
 
 #titleCont {
   background-color: #f00;
-  width: 100%;
+  width: 630;
   padding: 8px;
 }
 
@@ -48,8 +56,9 @@ body {
 #newsPanel {
   float: left;
   background-color: #538cc5;
-  width: 200px;
+  width: 184px;
   padding: 8px;
+  margin: 0 8px 0 0;
 }
 
 /* Right Hand Navigation Panel
@@ -58,7 +67,8 @@ body {
 #navPanel {
   background-color: #ccc;
   float: right;
-  width: 150px;
+  width: 134px;
+  padding: 8px;
 }
 
 /* FOOTER WRAPPER
@@ -74,13 +84,15 @@ body {
 .halfL {
   background-color: red;
   float: left;
-  width: 390px;
+  width: 374px;
+  padding: 8px;
 }
 
 .halfR {
   background-color: yellow;
   float: right;
-  width: 390px;
+  width: 374px;
+  padding: 8px;
 }
 
 .right {
