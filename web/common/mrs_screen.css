@@ -1,0 +1,88 @@
+/* Mean Red Spiders - Screen CSS 
+--------------------------------------------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  font: 12px Arial, Helvetica, sans-serif;
+  text-align: justify;
+  color: #444;
+}
+
+#headWrapper, #mainContWrapper, #footWrapper {
+  width: 780px;
+  margin: 0 auto;
+}
+
+/* Header
+--------------------------------------------------------------------*/
+
+#headWrapper {
+  background: #000 url(../imgs/shared/headBg.jpg) no-repeat 0 0;
+  height: 200px;
+}
+
+#mainContent {
+  clear: right;
+  float: left;
+  background-color: #e0e0e0;
+  width: 630px;
+}
+
+/* Title (contained within mainContent)
+--------------------------------------------------------------------*/
+
+#titleCont {
+  background-color: #f00;
+  width: 100%;
+  padding: 8px;
+}
+
+/* Left Hand News Panel (contained within mainContent)
+--------------------------------------------------------------------*/
+
+#newsPanel {
+  float: left;
+  background-color: #538cc5;
+  width: 200px;
+  padding: 8px;
+}
+
+/* Right Hand Navigation Panel
+--------------------------------------------------------------------*/
+
+#navPanel {
+  background-color: #ccc;
+  float: right;
+  width: 150px;
+}
+
+/* FOOTER WRAPPER
+--------------------------------------------------------------------*/
+
+#footWrapper {
+  clear: both;
+}
+
+/* Shared Layout Classes
+--------------------------------------------------------------------*/
+
+.halfL {
+  background-color: red;
+  float: left;
+  width: 390px;
+}
+
+.halfR {
+  background-color: yellow;
+  float: right;
+  width: 390px;
+}
+
+.right {
+  text-align: right;
+}
