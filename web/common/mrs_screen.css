@@ -55,7 +55,7 @@ body {
 
 #newsPanel {
   float: left;
-  background-color: #538cc5;
+  background-color: #96bdda;
   width: 184px;
   padding: 8px;
   margin: 0 8px 0 0;
@@ -65,7 +65,7 @@ body {
 --------------------------------------------------------------------*/
 
 #navPanel {
-  background-color: #ccc;
+  background-color: #96bdda;
   float: right;
   width: 134px;
   padding: 8px;
