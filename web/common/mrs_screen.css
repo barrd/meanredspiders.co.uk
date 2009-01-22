@@ -18,12 +18,20 @@ body {
   margin: 0 auto;
 }
 
-/* Header
+/* Header + Slogan
 --------------------------------------------------------------------*/
 
 #headWrapper {
   background: #000 url(../imgs/shared/headBg.jpg) no-repeat 0 0;
   height: 200px;
+}
+
+.slogan {
+  float: right;
+  text-align: right;
+  padding: 100px 8px 0 0;
+  font-size: 18px;
+  color: #e0e0e0;  
 }
 
 /* Main Content
