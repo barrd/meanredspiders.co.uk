@@ -23,7 +23,7 @@ body {
   border: 1px solid #666;
 }
 
-/* Header + Slogan
+/* Header & Slogan
 --------------------------------------------------------------------*/
 
 #headWrapper {
@@ -37,22 +37,6 @@ body {
   padding: 100px 8px 0 0;
   font-size: 18px;
   color: #e0e0e0;  
-}
-
-/* Main Content
---------------------------------------------------------------------*/
-
-#mainContent {
-  clear: right;
-  float: left;
-  background-color: #fff;
-  width: 629px;
-  border-right: 1px solid #666;
-}
-
-#mainContPad {
-  width: 614px;
-  padding: 8px;
 }
 
 /* Title (contained within mainContent)
@@ -79,6 +63,22 @@ body {
   border-right: 1px solid #666;
 }
 
+/* Main Content
+--------------------------------------------------------------------*/
+
+#mainContent {
+  clear: right;
+  float: left;
+  background-color: #fff;
+  width: 629px;
+  border-right: 1px solid #666;
+}
+
+#mainContPad {
+  width: 614px;
+  padding: 8px;
+}
+
 /* Right Hand Navigation Panel
 --------------------------------------------------------------------*/
 
@@ -88,6 +88,24 @@ body {
   width: 134px;
   padding: 8px;
   color: #999;
+}
+
+#navPanel ul {
+  list-style: none;
+  margin: 0 0 12px 0;
+}
+
+#navPanel li a {
+  display: block;
+  text-decoration: none;
+  padding: 6px 0;
+  border-bottom: 1px dotted;
+  color: #777;
+}
+
+#navPanel li a:hover {
+  color: #000;
+  font-weight: bold;
 }
 
 /* Footer
@@ -115,6 +133,31 @@ body {
 .right {
   text-align: right;
 }
+
+/* Links
+--------------------------------------------------------------------*/
+
+a, a:visited, a:active {
+  text-decoration: none;
+  border-bottom: 1px dotted;
+  padding-bottom: 1px;
+}
+
+/* TITLE */
+#titleCont a, #titleCont a:visited, #titleCont a:active { color: #96bdda; }
+#titleCont a:hover { color: #e9e9e9; }
+
+/* NEWS */
+#newsPanel a, #newsPanel a:visited, #newsPanel a:active { color: #e9e9e9; }
+#newsPanel a:hover { color: #56758c; }
+
+/* MAIN CONTENT */
+#mainContPad a, #mainContPad a:visited, #mainContPad a:active { color: #56758c; }
+#mainContPad a:hover { color: #444; }
+
+/* FOOTER */
+#footWrapper .halfR a, #footWrapper .halfR a:visited, #footWrapper .halfR a:active { color: #56758c; }
+#footWrapper .halfR a:hover { color: #444; }
 
 /* Typography
 --------------------------------------------------------------------*/
