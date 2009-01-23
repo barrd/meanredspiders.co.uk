@@ -42,7 +42,7 @@ body {
 /* Breadcrumbs (contained within mainContent)
 --------------------------------------------------------------------*/
 
-#breadCrumbsCont {
+#breadCrumbs {
   background-color: #56758c;
   width: 613px;
   padding: 8px;
@@ -145,8 +145,8 @@ a, a:visited, a:active {
 }
 
 /* BREADCRUMBS */
-#breadCrumbsCont a, #breadCrumbsCont a:visited, #breadCrumbsCont a:active { color: #96bdda; }
-#breadCrumbsCont a:hover { color: #e9e9e9; }
+#breadCrumbs a, #breadCrumbs a:visited, #breadCrumbs a:active { color: #96bdda; }
+#breadCrumbs a:hover { color: #e9e9e9; }
 
 /* NEWS */
 #newsPanel a, #newsPanel a:visited, #newsPanel a:active { color: #e9e9e9; }
