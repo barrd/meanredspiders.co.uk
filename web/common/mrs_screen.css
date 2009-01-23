@@ -57,6 +57,7 @@ body {
 #newsPanel {
   float: left;
   background-color: #96bdda;
+  font-size: 90%;
   width: 184px;
   padding: 8px;
 }
@@ -139,8 +140,8 @@ body {
 --------------------------------------------------------------------*/
 
 .imgL, .imgR {
-  padding: 6px;
-  border: 1px solid #777;
+  padding: 4px;
+  border: 1px solid #666;
 }
 
 .imgL {
@@ -207,7 +208,7 @@ h1 {
 #mainContPad h2 {
   font-size: 160%;
   margin: 0 0 12px 0;
-  color: #999;
+  color: #666;
 }
 
 h2 {
@@ -219,14 +220,14 @@ h2:before {
   content: "-- ";
 }
 
+#mainContPad h2:before {
+  content: "";
+}
+
 h3 {
   font-size: 110%;
   margin: 0 0 4px 0;
   color: #999;
-}
-
-#mainContPad h2:before {
-  content: "";
 }
 
 p {
