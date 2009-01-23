@@ -173,18 +173,22 @@ h1 {
   font-size: 117%;
 }
 
-h2 {
+#mainContPad h2 {
   font-size: 160%;
   margin: 0 0 12px 0;
 }
 
-h3 {
+h2 {
   font-size: 117%;
   margin: 0 0 4px 0;
 }
 
-h3:before {
+h2:before {
   content: "-- ";
+}
+
+#mainContPad h2:before {
+  content: "";
 }
 
 p {
