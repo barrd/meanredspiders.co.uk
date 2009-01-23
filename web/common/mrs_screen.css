@@ -57,25 +57,26 @@ body {
 #newsPanel {
   float: left;
   background-color: #96bdda;
-  width: 183px;
+  width: 184px;
   padding: 8px;
-  margin: 0 8px 0 0;
-  border-right: 1px solid #666;
 }
 
 /* Main Content
 --------------------------------------------------------------------*/
 
 #mainContent {
+  background-color: #96bdda;
   float: left;
-  background-color: #fff;
-  width: 629px;
-  border-right: 1px solid #666;
+  width: 630px;
 }
 
 #mainContPad {
-  width: 614px;
+  background-color: #fff;
+  float: right;
+  width: 412px;
   padding: 8px;
+  border-right: 1px solid #666;
+  border-left: 1px solid #666;
 }
 
 /* Right Hand Navigation Panel
