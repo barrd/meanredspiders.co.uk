@@ -33,9 +33,9 @@ body {
 
 .slogan {
   float: right;
+  font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
   text-align: right;
   padding: 100px 8px 0 0;
-  font-size: 18px;
   color: #e0e0e0;  
 }
 
@@ -67,7 +67,6 @@ body {
 --------------------------------------------------------------------*/
 
 #mainContent {
-  clear: right;
   float: left;
   background-color: #fff;
   width: 629px;
@@ -83,6 +82,7 @@ body {
 --------------------------------------------------------------------*/
 
 #navPanel {
+  clear: right;
   background: transparent;
   float: right;
   width: 134px;
@@ -169,16 +169,17 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 h2 {
-  font-size: 16px;
+  font-size: 18px;
   margin: 0 0 12px 0;
 }
 
 h3 {
   font-size: 14px;
+  margin: 0 0 4px; 0;
 }
 
 h3:before {
