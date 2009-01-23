@@ -207,6 +207,7 @@ h1 {
 #mainContPad h2 {
   font-size: 160%;
   margin: 0 0 12px 0;
+  color: #999;
 }
 
 h2 {
@@ -216,6 +217,12 @@ h2 {
 
 h2:before {
   content: "-- ";
+}
+
+h3 {
+  font-size: 110%;
+  margin: 0 0 4px 0;
+  color: #999;
 }
 
 #mainContPad h2:before {
