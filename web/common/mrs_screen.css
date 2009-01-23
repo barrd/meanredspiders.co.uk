@@ -139,7 +139,7 @@ body {
 /* Shared Text & Image Classes
 --------------------------------------------------------------------*/
 
-.imgL, .imgR {
+.imgL, .imgR, .imgC {
   padding: 4px;
   border: 1px solid #666;
 }
@@ -157,7 +157,10 @@ body {
 /* Links
 --------------------------------------------------------------------*/
 
-a, a:visited, a:active {
+#breadCrumbs a, #breadCrumbs a:visited, #breadCrumbs a:active,
+#newsPanel a, #newsPanel a:visited, #newsPanel a:active,
+#mainContPad a, #mainContPad a:visited, #mainContPad a:active,
+#footWrapper .halfR a, #footWrapper .halfR a:visited, #footWrapper .halfR a:active {
   text-decoration: none;
   border-bottom: 1px dotted;
   padding-bottom: 1px;
@@ -193,7 +196,7 @@ a:hover img {
   opacity: 1;
 }
 
-/* Typography
+/* Typography & Other X|HTML Elements
 --------------------------------------------------------------------*/
 
 h1, h2, h3 {
@@ -232,4 +235,8 @@ h3 {
 
 p {
   margin: 0 0 12px 0;
+}
+
+img {
+  border: 0;
 }
