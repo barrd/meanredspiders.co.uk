@@ -27,7 +27,7 @@ body {
 --------------------------------------------------------------------*/
 
 #headWrapper {
-  background: #000 url(../imgs/shared/headBg.jpg) no-repeat 0 0;
+  background: #000 url(../imgs/shared/headBg.jpg) 0 0 no-repeat;
   height: 200px;
 }
 
@@ -72,19 +72,19 @@ body {
 }
 
 #mainContPad {
-  background-color: #fff;
   float: right;
+  background-color: #fff;
   width: 412px;
   padding: 8px;
   border-right: 1px solid #666;
   border-left: 1px solid #666;
+  min-height: 500px;
 }
 
 /* Right Hand Navigation Panel
 --------------------------------------------------------------------*/
 
 #navPanel {
-  clear: right;
   background: transparent;
   float: right;
   width: 134px;
