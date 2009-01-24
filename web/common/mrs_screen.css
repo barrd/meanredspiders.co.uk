@@ -102,11 +102,11 @@ body {
   text-decoration: none;
   padding: 6px 0 6px 4px;
   border-bottom: 1px dotted;
-  color: #777;
+  color: #56758c;
 }
 
 #navPanel li a:hover {
-  color: #000;
+  color: #444;
 }
 
 /* Footer
@@ -146,12 +146,12 @@ body {
 
 .imgL {
   float: left;
-  margin: 3px 10px 4px 0;
+  margin: 4px 10px 4px 0;
 }
 
 .imgR {
   float: right;
-  margin: 3px 0 4px 10px;
+  margin: 4px 0 4px 10px;
 }
 
 /* Links
