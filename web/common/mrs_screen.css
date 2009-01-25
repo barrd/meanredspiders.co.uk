@@ -62,6 +62,19 @@ body {
   padding: 8px;
 }
 
+dl.bandMembers {
+  margin: 0 0 12px 0;
+}
+
+dl.bandMembers dt {
+  float:left;
+  padding-right: 0.3em;
+}
+
+dl.bandMembers dt:after {
+  content: " -";
+}
+
 /* Main Content
 --------------------------------------------------------------------*/
 

@@ -11,6 +11,11 @@
     @import url("common/mrs_screen.css");
   /*]]>*/
   </style>
+
+  <!--[if lt IE 8]>
+  <script src="common/IE8.js" type="text/javascript"></script>
+  <![endif]-->
+
   <title>Mean Red Spiders / Test Page</title>
 </head>
 <body>
@@ -54,13 +59,20 @@
       -->
       <div id="newsPanel">  <!-- START LEFT HAND NEWS PANEL -->
         <h2>The Band</h2>
-        <p>
-        <a href="#" title="Dave Harker">Dave Harker</a> - Guitar, Vocals<br />
-        <a href="#" title="Jon Vaughan">Jon Vaughan</a> - Harmonica<br />
-        <a href="#" title="Yuki">Yuki</a> - Keyboard, Bass, Vocals<br />
-        <a href="#" title="Michael Davis">Michael Davis</a> - Drums<br />
-        </p>
-        
+        <dl class="bandMembers">
+            <dt><a href="#" title="Dave Harker">Dave Harker</a></dt>
+                <dd>Guitar, Vocals</dd>
+
+            <dt><a href="#" title="Yuki">Yuki</a></dt>
+                <dd>Keyboard, Bass, Vocals</dd>
+
+            <dt><a href="#" title="Jon Vaughan">Jon Vaughan</a></dt>
+                <dd>Harmonica</dd>
+
+            <dt><a href="#" title="Michael Davis">Michael Davis</a></dt>
+                <dd>Drums</dd>
+        </dl>
+
         <h2>News</h2>
         <p>
         Lorem vero ut veniam praesent accumsan eum <a href ="#">facilisis dignissim</a> facilisis dignissim esse
