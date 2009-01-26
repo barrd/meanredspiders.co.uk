@@ -14,7 +14,7 @@ body {
   color: #555;
 }
 
-#completeWrap, #headWrapper, #mainContWrapper, #footWrapper {
+#completeWrap, #headWrapper, #contentWrapper, #footWrapper {
   width: 780px;
   margin: 0 auto;
 }
@@ -62,16 +62,34 @@ body {
   padding: 8px;
 }
 
+dl.bandMembers {
+  margin: 0 0 12px 0;
+}
+
+dl.bandMembers dt {
+  float:left;
+  padding-right: 0.3em;
+}
+
+dl.bandMembers dt:after {
+  content: " -";
+}
+
 /* Main Content
 --------------------------------------------------------------------*/
 
-#mainContent {
+#titleNewsMainWrapper {
   background-color: #96bdda;
   float: left;
   width: 630px;
 }
 
+<<<<<<< HEAD:web/common/mrs_screen.css
 #mainContPad {
+=======
+#mainContent {
+  background-color: #fff;
+>>>>>>> 5c0d1d1e546a4dee4183ebde1224b029de224326:web/common/mrs_screen.css
   float: right;
   background-color: #fff;
   width: 412px;
@@ -158,7 +176,7 @@ body {
 
 #breadCrumbs a, #breadCrumbs a:visited, #breadCrumbs a:active,
 #newsPanel a, #newsPanel a:visited, #newsPanel a:active,
-#mainContPad a, #mainContPad a:visited, #mainContPad a:active,
+#mainContent a, #mainContent a:visited, #mainContent a:active,
 #footWrapper .halfR a, #footWrapper .halfR a:visited, #footWrapper .halfR a:active {
   text-decoration: none;
   border-bottom: 1px dotted;
@@ -174,8 +192,8 @@ body {
 #newsPanel a:hover { color: #56758c; }
 
 /* MAIN CONTENT */
-#mainContPad a, #mainContPad a:visited, #mainContPad a:active { color: #56758c; }
-#mainContPad a:hover { color: #444; }
+#mainContent a, #mainContent a:visited, #mainContent a:active { color: #56758c; }
+#mainContent a:hover { color: #444; }
 
 /* FOOTER */
 #footWrapper .halfR a, #footWrapper .halfR a:visited, #footWrapper .halfR a:active { color: #56758c; }
@@ -207,7 +225,7 @@ h1 {
   font-size: 117%;
 }
 
-#mainContPad h2 {
+#mainContent h2 {
   font-size: 160%;
   margin: 0 0 12px 0;
   color: #666;
@@ -222,7 +240,7 @@ h2:before {
   content: "-- ";
 }
 
-#mainContPad h2:before {
+#mainContent h2:before {
   content: "";
 }
 
