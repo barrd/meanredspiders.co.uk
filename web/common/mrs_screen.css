@@ -84,14 +84,9 @@ dl.bandMembers dt:after {
   width: 630px;
 }
 
-<<<<<<< HEAD:web/common/mrs_screen.css
-#mainContPad {
-=======
 #mainContent {
   background-color: #fff;
->>>>>>> 5c0d1d1e546a4dee4183ebde1224b029de224326:web/common/mrs_screen.css
   float: right;
-  background-color: #fff;
   width: 412px;
   padding: 8px;
   border-right: 1px solid #666;
@@ -102,6 +97,7 @@ dl.bandMembers dt:after {
 --------------------------------------------------------------------*/
 
 #navPanel {
+  clear: right;
   background: transparent;
   float: right;
   width: 134px;
