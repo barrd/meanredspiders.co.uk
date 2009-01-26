@@ -15,13 +15,16 @@ body {
 }
 
 #completeWrap, #headWrapper, #contentWrapper, #footWrapper {
-  width: 780px;
+  width: 782px;
   margin: 0 auto;
 }
 
-#completeWrap {
+#contentWrapper {
+  width: 780px;
   border: 1px solid #666;
 }
+
+
 
 /* Header & Slogan
 --------------------------------------------------------------------*/
@@ -120,6 +123,12 @@ dl.bandMembers dt:after {
 
 #navPanel li a:hover {
   color: #444;
+}
+
+div.clearer {
+  clear: both;
+  line-height: 0;
+  height: 0;
 }
 
 /* Footer
