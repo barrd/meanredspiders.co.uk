@@ -28,7 +28,7 @@ body {
 --------------------------------------------------------------------*/
 
 #headWrapper {
-  background: #000 url(../imgs/shared/headBg.jpg) 0 0 no-repeat;
+  background: #000 url(../imgs/shared/headBg.jpg) no-repeat;
   height: 200px;
 }
 
@@ -56,6 +56,7 @@ body {
 --------------------------------------------------------------------*/
 
 #newsPanel {
+  background: transparent;
   float: left;
   font-size: 90%;
   width: 184px;
@@ -84,19 +85,18 @@ dl.bandMembers dt:after {
 }
 
 #mainContent {
+  background: transparent;
   float: right;
   width: 412px;
   padding: 8px;
-  border-right: 1px solid #666;
-  border-left: 1px solid #666;
 }
 
 /* Right Hand Navigation Panel
 --------------------------------------------------------------------*/
 
 #navPanel {
-  clear: right;
   background: transparent;
+  clear: right;
   float: right;
   width: 134px;
   padding: 8px;
