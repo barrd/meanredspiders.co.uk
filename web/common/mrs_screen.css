@@ -32,7 +32,7 @@ body {
 #headWrapper {
   background: #000 url(../imgs/shared/headBg.jpg) no-repeat;
   height: 200px;
-  margin: 12px 0 0 0;
+  margin: 12px 0 0 0;w
 }
 
 .slogan {
@@ -98,17 +98,14 @@ dl.bandMembers dt:after {
 --------------------------------------------------------------------*/
 
 #navPanel {
-  background: url(../imgs/shared/navBg.png) no-repeat;
   clear: right;
   float: right;
-  width: 134px;
-  padding: 8px;
+  width: 150px;
   color: #888;
 }
 
 #navPanel ul {
   list-style: none;
-  margin: 0 0 12px 0;
 }
 
 #navPanel li a {
@@ -127,6 +124,16 @@ div.clearer {
   clear: both;
   line-height: 0;
   height: 0;
+}
+
+#navLinks {
+  background-color: #000;
+  padding: 8px 8px 0 8px;
+}
+
+#navCont {
+  background: url(../imgs/shared/navFadeBg.png) no-repeat;
+  padding: 12px 8px 0 8px;
 }
 
 /* Footer
