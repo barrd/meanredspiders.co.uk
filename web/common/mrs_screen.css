@@ -41,7 +41,7 @@ body {
   color: #e0e0e0;  
 }
 
-/* Breadcrumbs (contained within mainContent)
+/* Breadcrumbs
 --------------------------------------------------------------------*/
 
 #breadCrumbs {
@@ -53,7 +53,8 @@ body {
   border-bottom: 1px solid #666;
 }
 
-/* Left Hand News Panel (contained within mainContent)
+
+/* Left Hand News Panel
 --------------------------------------------------------------------*/
 
 #newsPanel {
@@ -96,7 +97,7 @@ dl.bandMembers dt:after {
 --------------------------------------------------------------------*/
 
 #navPanel {
-  background: transparent;
+  background: url(../imgs/shared/navBg.png) no-repeat 0 0;
   clear: right;
   float: right;
   width: 134px;
@@ -113,7 +114,7 @@ dl.bandMembers dt:after {
   display: block;
   text-decoration: none;
   padding: 6px 0 6px 4px;
-  border-bottom: 1px dotted;
+  border-bottom: #56758c 1px dotted;
   color: #56758c;
 }
 
