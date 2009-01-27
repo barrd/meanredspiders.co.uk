@@ -120,12 +120,6 @@ dl.bandMembers dt:after {
   color: #444;
 }
 
-div.clearer {
-  clear: both;
-  line-height: 0;
-  height: 0;
-}
-
 #navLinks {
   background-color: #000;
   padding: 8px 8px 0 8px;
@@ -138,6 +132,12 @@ div.clearer {
 
 /* Footer
 --------------------------------------------------------------------*/
+
+div.clearer {
+  clear: both;
+  line-height: 0;
+  height: 0;
+}
 
 #footWrapper {
   clear: both;
