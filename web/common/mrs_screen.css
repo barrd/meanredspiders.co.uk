@@ -22,7 +22,7 @@ body {
 #contentWrapper {
   width: 780px;
   background: url(../imgs/shared/pageBg.png) repeat-y;
-  border: 1px solid #666;
+  border: 1px solid #333;
   border-top: none;
 }
 
