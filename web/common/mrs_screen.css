@@ -22,7 +22,8 @@ body {
 #contentWrapper {
   width: 780px;
   background: url(../imgs/shared/pageBg.png) repeat-y;
-  border: 1px solid #000;
+  border: 1px solid #666;
+  border-top: none;
 }
 
 /* Header & Slogan
@@ -46,10 +47,10 @@ body {
 
 #breadCrumbs {
   background: #68869b url(../imgs/shared/navTopRightCorner.png) top right no-repeat;
-  width: 613px;
+  width: 614px;
   padding: 8px;
   color: #f3f3f3;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #666;
 }
 
 
