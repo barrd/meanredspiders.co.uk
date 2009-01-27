@@ -41,15 +41,14 @@ body {
   color: #e0e0e0;  
 }
 
-/* Breadcrumbs
+/* Breadcrumbs 56758c
 --------------------------------------------------------------------*/
 
 #breadCrumbs {
-  background-color: #56758c;
+  background: #68869b url(../imgs/shared/navTopRightCorner.png) top right no-repeat;
   width: 613px;
   padding: 8px;
   color: #f3f3f3;
-  border-right: 1px solid #666;
   border-bottom: 1px solid #666;
 }
 
