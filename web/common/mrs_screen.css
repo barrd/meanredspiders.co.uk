@@ -26,7 +26,7 @@ body {
   border-top: none;
 }
 
-/* Header & Slogan
+/* Header, Slogan & Quote
 --------------------------------------------------------------------*/
 
 #headWrapper {
@@ -35,12 +35,23 @@ body {
   margin: 12px 0 0 0;
 }
 
-.slogan {
+.slogan, .quote {
   float: right;
-  font: 133% "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #e0e0e0;
+}
+
+.slogan {
   text-align: right;
-  padding: 100px 8px 0 0;
-  color: #e0e0e0;  
+  font: 120% "Trebuchet MS", Arial, Helvetica, sans-serif;
+  padding: 95px 8px 0 0;
+}
+
+.quote {
+  width: 400px;
+  padding: 12px 8px 0 0;
+  font-size: 60%;
+  font-style: italic;
+  overflow: hidden;
 }
 
 /* Breadcrumbs
