@@ -33,10 +33,6 @@ body {
   background: #000 url(../imgs/shared/headBg.jpg) no-repeat;
   height: 200px;
   margin: 12px 0 0 0;
-  -moz-border-radius-topleft: 10px;
-  -webkit-border-top-left-radius: 10px;
-  -moz-border-radius-topright: 10px;
-  -webkit-border-top-right-radius: 10px;
 }
 
 .slogan {
@@ -96,8 +92,8 @@ dl.bandMembers dt:after {
 #mainContent {
   background: transparent;
   float: right;
-  width: 414px;
-  padding: 8px;
+  width: 406px;
+  padding: 8px 12px;
 }
 
 /* Right Hand Navigation Panel
@@ -277,4 +273,19 @@ p {
 
 img {
   border: 0;
+}
+
+/* --- R O U N D E D   B O R D E R S
+....................................................................*/
+
+/* TOP LEFT */
+#headWrapper {
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-top-left-radius: 10px;
+}
+
+/* TOP RIGHT */
+#headWrapper {
+  -moz-border-radius-topright: 10px;
+  -webkit-border-top-right-radius: 10px;
 }
