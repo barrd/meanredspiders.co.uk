@@ -253,14 +253,6 @@ h2 {
   margin: 0 0 4px 0;
 }
 
-h2:before {
-  content: "-- ";
-}
-
-#mainContent h2:before {
-  content: "";
-}
-
 h3 {
   font-size: 110%;
   margin: 0 0 4px 0;
