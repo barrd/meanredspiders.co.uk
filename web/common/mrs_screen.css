@@ -41,7 +41,7 @@ body {
   color: #e0e0e0;  
 }
 
-/* Breadcrumbs 56758c
+/* Breadcrumbs
 --------------------------------------------------------------------*/
 
 #breadCrumbs {
@@ -96,12 +96,12 @@ dl.bandMembers dt:after {
 --------------------------------------------------------------------*/
 
 #navPanel {
-  background: url(../imgs/shared/navBg.png) no-repeat 0 0;
+  background: url(../imgs/shared/navBg.png) no-repeat;
   clear: right;
   float: right;
   width: 134px;
   padding: 8px;
-  color: #999;
+  color: #888;
 }
 
 #navPanel ul {
@@ -230,6 +230,10 @@ h1 {
   font-size: 160%;
   margin: 0 0 12px 0;
   color: #666;
+}
+
+#navPanel h2 {
+  color: #ccc;
 }
 
 h2 {
