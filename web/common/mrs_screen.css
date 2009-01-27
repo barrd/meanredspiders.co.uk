@@ -18,19 +18,18 @@ body {
   width: 782px;
   margin: 0 auto;
 }
-
+  
 #contentWrapper {
   width: 780px;
+  background: url(../imgs/shared/pageBg.png) repeat-y;
   border: 1px solid #666;
 }
-
-
 
 /* Header & Slogan
 --------------------------------------------------------------------*/
 
 #headWrapper {
-  background: #000 url(../imgs/shared/headBg.jpg) 0 0 no-repeat;
+  background: #000 url(../imgs/shared/headBg.jpg) no-repeat;
   height: 200px;
 }
 
@@ -58,8 +57,8 @@ body {
 --------------------------------------------------------------------*/
 
 #newsPanel {
+  background: transparent;
   float: left;
-  background-color: #96bdda;
   font-size: 90%;
   width: 184px;
   padding: 8px;
@@ -82,26 +81,23 @@ dl.bandMembers dt:after {
 --------------------------------------------------------------------*/
 
 #titleNewsMainWrapper {
-  background-color: #96bdda;
   float: left;
   width: 630px;
 }
 
 #mainContent {
-  background-color: #fff;
+  background: transparent;
   float: right;
   width: 412px;
   padding: 8px;
-  border-right: 1px solid #666;
-  border-left: 1px solid #666;
 }
 
 /* Right Hand Navigation Panel
 --------------------------------------------------------------------*/
 
 #navPanel {
-  clear: right;
   background: transparent;
+  clear: right;
   float: right;
   width: 134px;
   padding: 8px;
