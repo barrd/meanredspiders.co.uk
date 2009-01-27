@@ -107,7 +107,6 @@ dl.bandMembers dt:after {
   clear: right;
   float: right;
   width: 150px;
-  color: #888;
 }
 
 #navPanel ul {
@@ -129,12 +128,13 @@ dl.bandMembers dt:after {
 #navLinks {
   background-color: #000;
   padding: 8px 8px 0 8px;
+  color: #999;
 }
 
 #navCont {
   background: url(../imgs/shared/navFadeBg.png) no-repeat;
   padding: 12px 8px 0 8px;
-  color: #ccc;
+  color: #aaa;
 }
 
 /* Footer
@@ -233,7 +233,7 @@ a:hover img {
 /* Typography & Other X|HTML Elements
 --------------------------------------------------------------------*/
 
-h1, h2, h3 {
+h1, h2, h3, .slogan {
   letter-spacing: 1px;
   font-weight: normal;
 }
