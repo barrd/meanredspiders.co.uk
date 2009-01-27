@@ -52,6 +52,7 @@ body {
   font-size: 60%;
   font-style: italic;
   overflow: hidden;
+  color: #abcae2
 }
 
 /* Breadcrumbs
@@ -73,6 +74,7 @@ body {
   background: transparent;
   float: left;
   font-size: 90%;
+  line-height: 16px;
   width: 184px;
   padding: 8px;
   -moz-border-radius-bottomleft: 10px;
