@@ -40,7 +40,7 @@ body {
   color: #e0e0e0;  
 }
 
-/* Breadcrumbs (contained within mainContent)
+/* Breadcrumbs
 --------------------------------------------------------------------*/
 
 #breadCrumbs {
@@ -52,7 +52,7 @@ body {
   border-bottom: 1px solid #666;
 }
 
-/* Left Hand News Panel (contained within mainContent)
+/* Left Hand News Panel
 --------------------------------------------------------------------*/
 
 #newsPanel {
