@@ -280,6 +280,11 @@ img {
   border: 0;
 }
 
+#mainContent ul { 
+  list-style-image: url(../imgs/shared/iconList.jpg);
+  margin: 12px 0 12px 36px;
+}
+
 /* --- R O U N D E D   B O R D E R S
 ....................................................................*/
 
