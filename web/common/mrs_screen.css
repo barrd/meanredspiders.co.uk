@@ -20,8 +20,8 @@ body {
 }
   
 #contentWrapper {
-  width: 780px;
   background: url(../imgs/shared/pageBg.png) repeat-y;
+  width: 780px;
   border: 1px solid #333;
   border-top: none;
 }
@@ -37,13 +37,13 @@ body {
 
 .slogan, .quote {
   float: right;
-  color: #e0e0e0;
 }
 
 .slogan {
   text-align: right;
   font: 120% "Trebuchet MS", Arial, Helvetica, sans-serif;
   padding: 95px 8px 0 0;
+  color: #e0e0e0;
 }
 
 .quote {
@@ -51,7 +51,6 @@ body {
   padding: 12px 8px 0 0;
   font-size: 60%;
   font-style: italic;
-  overflow: hidden;
   color: #abcae2
 }
 
@@ -107,6 +106,11 @@ dl.bandMembers dt:after {
   float: right;
   width: 406px;
   padding: 8px 12px;
+}
+
+#mainContent ul { 
+  list-style-image: url(../imgs/shared/iconList.jpg);
+  margin: 12px 0 12px 36px;
 }
 
 /* Right Hand Navigation Panel
@@ -227,9 +231,9 @@ div.clearer {
 
 a img {
   filter: alpha(opacity=60);
-  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
-  -moz-opacity: 0.80;
-  opacity: 0.8;
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=75);
+  -moz-opacity: 0.75;
+  opacity: 0.75;
  }
 
 a:hover img { 
@@ -278,11 +282,6 @@ p {
 
 img {
   border: 0;
-}
-
-#mainContent ul { 
-  list-style-image: url(../imgs/shared/iconList.jpg);
-  margin: 12px 0 12px 36px;
 }
 
 /* --- R O U N D E D   B O R D E R S
