@@ -35,21 +35,24 @@ body {
   margin: 12px 0 0 0;
 }
 
-.slogan, .quote {
+#headText {
   float: right;
+  width: 400px;
+  text-align: right;
+  padding: 95px 8px 0 0;
 }
 
-.slogan {
-  text-align: right;
+.slogan strong {
   font: 120% "Trebuchet MS", Arial, Helvetica, sans-serif;
-  padding: 95px 8px 0 0;
   color: #e0e0e0;
 }
 
 .quote {
-  width: 400px;
   padding: 12px 8px 0 0;
-  font-size: 60%;
+}
+
+.quote em {
+  font: 80% "Trebuchet MS", Arial, Helvetica, sans-serif;
   font-style: italic;
   color: #abcae2
 }
