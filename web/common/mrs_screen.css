@@ -37,10 +37,10 @@ body {
 
 .slogan, .quote {
   float: right;
+  text-align: right;
 }
 
 .slogan {
-  text-align: right;
   font: 120% "Trebuchet MS", Arial, Helvetica, sans-serif;
   padding: 95px 8px 0 0;
   color: #e0e0e0;
