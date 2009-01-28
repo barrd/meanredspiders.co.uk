@@ -20,6 +20,7 @@ body {
 }
   
 #contentWrapper {
+  clear: both;
   background: url(../imgs/shared/pageBg.png) repeat-y;
   width: 780px;
   border: 1px solid #333;
