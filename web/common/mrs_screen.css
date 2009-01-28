@@ -20,13 +20,13 @@ body {
 }
   
 #contentWrapper {
-  width: 780px;
   background: url(../imgs/shared/pageBg.png) repeat-y;
-  border: 1px solid #666;
+  width: 780px;
+  border: 1px solid #333;
   border-top: none;
 }
 
-/* Header & Slogan
+/* Header, Slogan & Quote
 --------------------------------------------------------------------*/
 
 #headWrapper {
@@ -35,12 +35,23 @@ body {
   margin: 12px 0 0 0;
 }
 
-.slogan {
+.slogan, .quote {
   float: right;
-  font: 133% "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.slogan {
   text-align: right;
-  padding: 100px 8px 0 0;
-  color: #e0e0e0;  
+  font: 120% "Trebuchet MS", Arial, Helvetica, sans-serif;
+  padding: 95px 8px 0 0;
+  color: #e0e0e0;
+}
+
+.quote {
+  width: 400px;
+  padding: 12px 8px 0 0;
+  font-size: 60%;
+  font-style: italic;
+  color: #abcae2
 }
 
 /* Breadcrumbs
@@ -62,8 +73,11 @@ body {
   background: transparent;
   float: left;
   font-size: 90%;
+  line-height: 16px;
   width: 184px;
   padding: 8px;
+  -moz-border-radius-bottomleft: 10px;
+  -webkit-border-bottom-left-radius: 10px;
 }
 
 dl.bandMembers {
@@ -90,8 +104,13 @@ dl.bandMembers dt:after {
 #mainContent {
   background: transparent;
   float: right;
-  width: 414px;
-  padding: 8px;
+  width: 406px;
+  padding: 8px 12px;
+}
+
+#mainContent ul { 
+  list-style-image: url(../imgs/shared/iconList.jpg);
+  margin: 12px 0 12px 36px;
 }
 
 /* Right Hand Navigation Panel
@@ -101,7 +120,6 @@ dl.bandMembers dt:after {
   clear: right;
   float: right;
   width: 150px;
-  color: #888;
 }
 
 #navPanel ul {
@@ -117,17 +135,19 @@ dl.bandMembers dt:after {
 }
 
 #navPanel li a:hover {
-  color: #444;
+  color: #e5d372;
 }
 
 #navLinks {
   background-color: #000;
   padding: 8px 8px 0 8px;
+  color: #999;
 }
 
 #navCont {
   background: url(../imgs/shared/navFadeBg.png) no-repeat;
   padding: 12px 8px 0 8px;
+  color: #aaa;
 }
 
 /* Footer
@@ -211,9 +231,9 @@ div.clearer {
 
 a img {
   filter: alpha(opacity=60);
-  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
-  -moz-opacity: 0.80;
-  opacity: 0.8;
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=75);
+  -moz-opacity: 0.75;
+  opacity: 0.75;
  }
 
 a:hover img { 
@@ -226,7 +246,7 @@ a:hover img {
 /* Typography & Other X|HTML Elements
 --------------------------------------------------------------------*/
 
-h1, h2, h3 {
+h1, h2, h3, .slogan {
   letter-spacing: 1px;
   font-weight: normal;
 }
@@ -250,14 +270,6 @@ h2 {
   margin: 0 0 4px 0;
 }
 
-h2:before {
-  content: "-- ";
-}
-
-#mainContent h2:before {
-  content: "";
-}
-
 h3 {
   font-size: 110%;
   margin: 0 0 4px 0;
@@ -270,4 +282,19 @@ p {
 
 img {
   border: 0;
+}
+
+/* --- R O U N D E D   B O R D E R S
+....................................................................*/
+
+/* TOP LEFT */
+#headWrapper {
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-top-left-radius: 10px;
+}
+
+/* TOP RIGHT */
+#headWrapper {
+  -moz-border-radius-topright: 10px;
+  -webkit-border-top-right-radius: 10px;
 }
