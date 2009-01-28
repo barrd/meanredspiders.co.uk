@@ -63,6 +63,7 @@ body {
 #breadCrumbs {
   background: #56748c url(../imgs/shared/crumbsTopRightCorner.jpg) top right no-repeat;
   width: 614px;
+  float: left;
   padding: 8px;
   color: #f3f3f3;
   border-bottom: 1px solid #666;
@@ -78,7 +79,7 @@ body {
   font-size: 90%;
   line-height: 16px;
   width: 184px;
-  padding: 8px;
+  padding: 0 8px 8px 8px;
   -moz-border-radius-bottomleft: 10px;
   -webkit-border-bottom-left-radius: 10px;
 }
@@ -99,16 +100,15 @@ dl.bandMembers dt:after {
 /* Main Content
 --------------------------------------------------------------------*/
 
-#titleNewsMainWrapper {
-  float: left;
-  width: 630px;
+clearBreadcrumbs {
+  clear: left;
 }
 
 #mainContent {
   background: transparent;
-  float: right;
+  margin-left: 210px;
   width: 406px;
-  padding: 8px 12px;
+  padding: 0 0 0 0;
 }
 
 #mainContent ul { 
@@ -120,7 +120,6 @@ dl.bandMembers dt:after {
 --------------------------------------------------------------------*/
 
 #navPanel {
-  clear: right;
   float: right;
   width: 150px;
 }
