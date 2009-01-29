@@ -101,15 +101,15 @@ dl.bandMembers dt:after {
 /* Main Content
 --------------------------------------------------------------------*/
 
-clearBreadcrumbs {
+.clearBreadcrumbs {
   clear: left;
+  padding: 8px 0 0 0;
 }
 
 #mainContent {
   background: transparent;
-  margin-left: 210px;
+  margin-left: 212px;
   width: 406px;
-  padding: 0 0 0 0;
 }
 
 #mainContent ul { 
