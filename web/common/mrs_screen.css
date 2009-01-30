@@ -40,22 +40,12 @@ body {
   float: right;
   width: 400px;
   text-align: right;
-  padding: 95px 8px 0 0;
+  padding: 148px 8px 0 0;
 }
 
 .slogan strong {
   font: 120% "Trebuchet MS", Arial, Helvetica, sans-serif;
   color: #e0e0e0;
-}
-
-.quote {
-  padding: 12px 8px 0 0;
-}
-
-.quote em {
-  font: 80% "Trebuchet MS", Arial, Helvetica, sans-serif;
-  font-style: italic;
-  color: #abcae2
 }
 
 /* Breadcrumbs
