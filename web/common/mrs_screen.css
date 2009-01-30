@@ -51,8 +51,8 @@ body {
 /* Breadcrumbs
 --------------------------------------------------------------------*/
 
-#breadCrumbs { /* 56748c */
-  background: #772c00 url(../imgs/shared/crumbsTopRightCorner.jpg) top right no-repeat;
+#breadCrumbs { /* blue:56748c brown:772c00 */
+  background: #901220 url(../imgs/shared/crumbsTopRightCorner.jpg) top right no-repeat;
   width: 614px;
   float: left;
   padding: 8px;
@@ -206,8 +206,8 @@ div.clearer {
   padding-bottom: 1px;
 }
 
-/* BREADCRUMBS 96bdda */
-#breadCrumbs a, #breadCrumbs a:visited, #breadCrumbs a:active { color: #d98e66; }
+/* BREADCRUMBS blue:96bdda brown: d98e66 */
+#breadCrumbs a, #breadCrumbs a:visited, #breadCrumbs a:active { color: #ff6b67; }
 #breadCrumbs a:hover { color: #e9e9e9; }
 
 /* NEWS */
