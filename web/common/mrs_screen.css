@@ -207,7 +207,7 @@ div.clearer {
 }
 
 /* BREADCRUMBS blue:96bdda brown: d98e66 */
-#breadCrumbs a, #breadCrumbs a:visited, #breadCrumbs a:active { color: #ff6b67; }
+#breadCrumbs a, #breadCrumbs a:visited, #breadCrumbs a:active { color: #fff; }
 #breadCrumbs a:hover { color: #e9e9e9; }
 
 /* NEWS */
