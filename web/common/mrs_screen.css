@@ -52,7 +52,7 @@ body {
 --------------------------------------------------------------------*/
 
 #breadCrumbs { /* blue:56748c brown:772c00 */
-  background: #901220 url(../imgs/shared/crumbsTopRightCorner.jpg) top right no-repeat;
+  background: #901220 url(../imgs/shared/crumbsTopRightCorner.png) top right no-repeat;
   width: 614px;
   float: left;
   padding: 8px;
