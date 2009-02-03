@@ -13,7 +13,7 @@ body {
 /* Don't Display... 
 --------------------------------------------------------------------*/
 
-#headWrapper, #breadCrumbs, #newsPanel, #navPanel, #footWrapper, .noPrint {
+#headWrapper, #newsPanel, #navPanel, #footWrapper, .noPrint {
   display: none;
 }
 
@@ -24,7 +24,7 @@ body {
 /* Main Content
 --------------------------------------------------------------------*/
 
-#mainContent {
+#mainContent, #breadCrumbs {
   width: 100%;
 }
 
@@ -34,6 +34,10 @@ body {
 
 .noScreen {
   display: block;
+}
+
+h1 {
+  font-size: 18pt;
 }
 
 h2 {
@@ -47,7 +51,7 @@ h3 {
 /* Links
 --------------------------------------------------------------------*/
 
-#mainContent a:link, #mainContent a:visited {
+#mainContent a:link, #mainContent a:visited, #breadCrumbs a:link, #breadCrumbs a:visited {
   text-decoration: none;
   border: none;
   color: rgb(5,5,5);
