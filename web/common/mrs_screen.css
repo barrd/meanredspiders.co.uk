@@ -126,6 +126,7 @@ dl.bandMembers dt:after {
 }
 
 #navPanel li a:hover {
+  background-color: #222;
   color: #e5d372;
 }
 
