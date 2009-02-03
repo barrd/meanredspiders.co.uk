@@ -261,6 +261,10 @@ h1 {
   color: #ccc;
 }
 
+#newsPanel h2 {
+  font-weight: bold;
+}
+
 h2 {
   font-size: 117%;
   margin: 0 0 4px 0;
