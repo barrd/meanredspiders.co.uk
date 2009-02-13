@@ -1,4 +1,4 @@
-/* Mean Red Spiders - Screen CSS 
+/* Yuki's Commercial - Screen CSS 
 --------------------------------------------------------------------*/
 
 * {
@@ -41,7 +41,6 @@ body {
 }
 
 #logoTxt {
-  clear: left;
   font: bold 320% "Trebuchet MS", Arial, Helvetica, sans-serif;
   letter-spacing: 9px;
   margin: 148px 0 0 1px;
@@ -55,7 +54,7 @@ body {
 /* Breadcrumbs
 --------------------------------------------------------------------*/
 
-#breadCrumbs { /* 242e37 4d5060 */
+#breadCrumbs {
   background: #bf1527 url(../imgs/shared/crumbsTopRightCorner.png) top right no-repeat;
   width: 614px;
   float: left;
@@ -66,7 +65,7 @@ body {
 /* Left Hand
 --------------------------------------------------------------------*/
 
-#newsPanel { /* 772c00 */
+#newsPanel {
   float: left;
   font-size: 90%;
   line-height: 16px;
