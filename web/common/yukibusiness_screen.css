@@ -11,7 +11,7 @@ body {
   font: 75% Arial, Helvetica, sans-serif;
   line-height: 150%;
   text-align: justify;
-  color: #555;
+  color: #4d5060;
 }
 
 #completeWrap, #headWrapper, #contentWrapper, #footWrapper {
@@ -37,40 +37,42 @@ body {
 }
 
 #headText {
-  float: right;
-  width: 400px;
-  text-align: right;
-  padding: 148px 8px 0 0;
+  padding: 4px 0 0 8px;
+}
+
+#logoTxt {
+  clear: left;
+  font: bold 320% "Trebuchet MS", Arial, Helvetica, sans-serif;
+  letter-spacing: 9px;
+  margin: 148px 0 0 1px;
+  color: #efefef;
 }
 
 .slogan strong {
-  font: 120% "Trebuchet MS", Arial, Helvetica, sans-serif;
   color: #e0e0e0;
 }
 
 /* Breadcrumbs
 --------------------------------------------------------------------*/
 
-#breadCrumbs {
-  background: #901220 url(../imgs/shared/crumbsTopRightCorner.png) top right no-repeat;
+#breadCrumbs { /* 242e37 4d5060 */
+  background: #bf1527 url(../imgs/shared/crumbsTopRightCorner.png) top right no-repeat;
   width: 614px;
   float: left;
-  padding: 8px;
+  padding: 8px 8px 10px 8px;
   color: #f3f3f3;
 }
 
-
-/* Left Hand News Panel
+/* Left Hand
 --------------------------------------------------------------------*/
 
-#newsPanel {
-  background: transparent;
+#newsPanel { /* 772c00 */
   float: left;
   font-size: 90%;
   line-height: 16px;
   width: 184px;
   padding: 0 8px 8px 8px;
-  color: #772c00;
+  color: #222;
 }
 
 dl.bandMembers {
@@ -105,42 +107,45 @@ dl.bandMembers dt:after {
   margin: 12px 0 12px 36px;
 }
 
-/* Right Hand Navigation Panel
+/* Right Hand
 --------------------------------------------------------------------*/
 
 #navPanel {
   float: right;
   width: 150px;
+  color: #aaa;
+}
+
+#navPanelTop {
+  background: #000 url(../imgs/shared/navTopBg.jpg) no-repeat;
+  padding: 50px 8px 0 8px;
+}
+
+#navPanelBott {
+  background: #000 url(../imgs/shared/iconNotesBg.png) 96px 4px no-repeat;
+  height: 64px;
+  padding: 4px 8px 0 8px;
+  color: #fff;
 }
 
 #navPanel ul {
   list-style: none;
+  margin: -12px 0 12px 0;
 }
 
-#navPanel li a { /* 56758c 901220 */
+#navPanel li a {
   display: block;
   text-decoration: none;
   padding: 6px 0 6px 4px;
-  border-bottom: #999 1px dotted;
-  color: #d0a593;
+  border-bottom: #666 1px dotted;
+  color: #ae738c;
 }
 
 #navPanel li a:hover {
-  background-color: #222;
-  color: #e5d372;
+  background-color: #bf1527;
+  color: #fff;
 }
 
-#navLinks {
-  background-color: #000;
-  padding: 8px 8px 0 8px;
-  color: #999;
-}
-
-#navCont {
-  background: url(../imgs/shared/navFadeBg.png) no-repeat;
-  padding: 12px 8px 0 8px;
-  color: #aaa;
-}
 
 /* Footer
 --------------------------------------------------------------------*/
@@ -185,16 +190,20 @@ div.clearer {
 
 .imgL {
   float: left;
-  margin: 4px 10px 4px 0;
+  margin: 2px 10px 4px 0;
 }
 
 .imgR {
   float: right;
-  margin: 4px 0 4px 10px;
+  margin: 2px 0 4px 10px;
 }
 
 .noScreen {
   display: none;
+}
+
+.red {
+  color: #bf1527;
 }
 
 /* Links
@@ -254,7 +263,7 @@ h1 {
 #mainContent h2 {
   font-size: 160%;
   margin: 0 0 12px 0;
-  color: #666;
+  color: #333;
 }
 
 #navPanel h2 {
@@ -273,7 +282,7 @@ h2 {
 h3 {
   font-size: 110%;
   margin: 0 0 4px 0;
-  color: #999;
+  color: #888;
 }
 
 p {
